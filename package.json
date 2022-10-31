@@ -1,0 +1,18 @@
+{
+  "name": "Magic-Potions",
+  "scripts": {
+    "start": "parcel index.html --https"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10"
+  }
+}
