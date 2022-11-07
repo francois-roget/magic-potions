@@ -1,5 +1,5 @@
 {
-  "name": "Magic-Potions",
+  "name": "magic-potions",
   "scripts": {
     "start": "parcel index.html --https"
   },
