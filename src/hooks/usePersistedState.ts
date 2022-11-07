@@ -13,6 +13,8 @@ function usePersistedState<T>(defaultValue: T, key: string): PersistedState<T> {
 	useEffect(() => {
 		if (value) {
 			window.localStorage.setItem(key, JSON.stringify(value));
+		} else {
+			window.localStorage.removeItem(key);
 		}
 	}, [key, value]);
 
